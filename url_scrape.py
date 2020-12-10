@@ -4,6 +4,10 @@ import bs4
 import os, shutil
 from pytube import YouTube
 
+# This script serves the purpose of converting the Million Song Dataset to a collection of MP3s
+# It first organizes the MSD text file into a list of SecondHandSong IDs,and then extracts the youtube links from those pages
+# It ends by converting the youtube links to MP3 files and storing them in folders, by song
+
 shs_file = open("shs_dataset_train.txt","r",encoding="utf-8")
 shs_dict = {}
 curr_entry = ''
@@ -29,7 +33,7 @@ fullDataset = []
 
 # This is the number of songs which will be analyzed; useful for getting truncated datasets.
 # The full dataset is 4084 song titles and has ~12000 songs; this takes many hours just to get through SHS.
-# You will probably want to truncate it unless you have lots of time.
+# You will probably want to truncate it unless you have lots of time or a supercomputer.
 limit = 300;
 
 for rowTitle in shs_dict.keys():
