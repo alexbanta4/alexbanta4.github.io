@@ -6,7 +6,7 @@ is of interest in the music industry when it comes to plagiarism; often songs ar
 
 ### Network
 
-![Figure 1]((https://alexbanta4.github.com/Loss Graph.png)
+![Figure 1]((https://alexbanta4.github.com/LossCurve.png)
 
 Our network architecture is a four-layer convolutional network followed by a linear layer, a sigmoid, and a second linear layer. Two songs are passed through the convolutional network, and then through a linear layer and a sigmoid layer. The absolute value of the difference of the sigmoid representation of both songs is then passed through a final linear layer, which outputs the model’s classification.
   We trained using an adaptive learning rate (ADAM) optimizer with an initial learning rate of .001. We measured error by taking the mean squared error of the output of our network with the label of the song pair [Figure 1]. We trained with a batch size of 16 over 5 epochs. 
