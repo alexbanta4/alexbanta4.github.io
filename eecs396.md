@@ -16,4 +16,4 @@ is of interest in the music industry when it comes to plagiarism; often songs ar
 Our network architecture consists of a four-layer Siamese Convolutional Network based on Figure 1 from Stamenovic's paper on cover song detection using convolutional siamese networks (Stamenovic, 2020). Our input into the network is the Constant-Q Transform represenation of two songs and the network outputs a predicted label based on the distance between the two representations. To train the network, we took the mean squared error between our predicted label of the song pair and the true label of the song pair, where the true label is 0 if the pair contains a cover and 1 if the pair does not contain another. Figure 2 pictures our training loss.
 
 ![Figure 2](https://alexbanta4.github.io/LossCurve.png)
-_Caption: Loss Curve of Full Test with Covers80
+_Caption: Loss Curve of Full Test with Covers80_
