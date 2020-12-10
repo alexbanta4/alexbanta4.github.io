@@ -1,3 +1,8 @@
+### Class Info and Contact Info
+
+This project is for EECS 396, the Deep Learning seminar taught by Professor Bryan Pardo at Northwestern University.
+If you have any further questions, reach out to Alex Banta at johnbanta2021@u.northwestern.edu, Noah Schaffer at noahschaffer2022@u.northwestern.edu, or Paulina Tarasul at paulinatarasul2021@u.northwestern.edu
+
 ### The Problem
 
 We are interested in applying Neural Networks in music classification. More specifically, we would like to build a Neural Network architecture to identify whether a particular recording is a cover of another recording, e.g. it is a different performance of the same song by a different artist. We plan to adopt the architecture and experiments from a number of papers that do this. Our goal is to test the effectiveness of our architecture in being able to identify multiple versions of the same song, some of which may differ in key, tempo, instrumentation, and style.
