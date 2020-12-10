@@ -9,6 +9,10 @@ Cover song identification tasks determine whether a particularrecording is a cov
 
 Music-hosting websites often want to know whether or not a song is a cover of an already published song, so that they can make sure it is appropriately labeled as such. In addition, this is of interest in the music industry when it comes to plagiarism; often songs are covered or used without the permission of the initial artist. Since the neural network is being trained to identify cover songs based on similarity of content, this could possibly be expanded to identify plagiarism. A neural network that can take in an audio file and identify whether or not it is a cover song would be useful for processing the large volume of such songs. In terms of intellectual interest, it will be very interesting to work with a neural network aimed at classifying something as complex as a song, and to find out what a network needs in order to do so effectively.
 
+### Overview of Approach
+
+Our approach to using Neural Networks to perform cover song identification was to use a network architecture which takes in two songs and uses the distance between those two songs to create a representation of similarity between songs. We then use that similarity representation to identify covers based on which song our network determines to be the most similar to a reference song. 
+
 ###  Building and Testing the Network
 
 For both the training and testing set, we used online datasets of cover songs, collected as MP3s  and converted to the Constant Q Transform format using the Librosa library. Our training dataset was a collection of 173 reference songs and 353 cover songs taken from the SecondHandSongs dataset. This resulted in 61069 reference/cover pairs for training. Our testing dataset was Covers80, which is a collection of 80 reference songs and their 80 corresponding covers, resulting in 3600 reference/cover pairs. 
