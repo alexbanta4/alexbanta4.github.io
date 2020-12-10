@@ -1,7 +1,7 @@
 ### Class Info and Contact Info
 
 This project is for EECS 396, the Deep Learning seminar taught by Professor Bryan Pardo at Northwestern University.
-If you have any further questions, reach out to Alex Banta at johnbanta2021@u.northwestern.edu, Noah Schaffer at noahschaffer2022@u.northwestern.edu, or Paulina Tarasul at paulinatarasul2021@u.northwestern.edu
+If you have any further questions, reach out to Alex Banta at johnbanta2021@u.northwestern.edu, Noah Schaffer at noahschaffer2022@u.northwestern.edu, or Paulina Tarasul at paulinatarasul2022@u.northwestern.edu
 
 ### The Problem
 
