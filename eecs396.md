@@ -32,4 +32,4 @@ For the 80 reference songs and 80 corresponding cover songs, we found that the n
 
 ### Final Paper
 
-For further information, read the paper ![Here](https://alexbanta4.github.io/Deep%20Learning%20Final%20Paper.pdf)
+For further information, read the paper ![Here](https://alexbanta4.github.io/Deep Learning Final Paper.pdf)
