@@ -29,3 +29,7 @@ We tested the network by comparing each reference song in the testing set to eac
 ![Figure 3](https://alexbanta4.github.io/RanksPlot.png)
 
 For the 80 reference songs and 80 corresponding cover songs, we found that the network correctly ranked 3/80 covers first for their reference songs, and 21/80 correct covers in the top ten. This result is certainly better than chance. If the cover songs were ranked purely by chance, then the probability of any reference song correctly ranking its cover first would be 1/80. The probability of 3 reference songs ranking their correct covers first, then, would be 1.95x10-6, making our network’s performance significantly better than chance. The probability of 21/80 covers being correctly ranked in the top 10 for their reference songs would be 1.08x10-19 if the ranking were to happen by chance, making our network’s performance in this respect significantly better than chance as well. This means that our network performs very well as compared to the baseline to which we chose to compare it, that of chance performance.
+
+### Final Paper
+
+For further information, read the paper ![Here](https://alexbanta4.github.io/Deep%20Learning%20Final%20Paper.pdf)
